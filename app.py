@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-st.set_page_config(page_title="Heart Disease Predictor", page_icon="❤️", layout="centered")
+st.set_page_config(page_title="Heart Disease Predictor by Krushna", page_icon="❤️", layout="centered")
 
 # Load files
 model = joblib.load("LogisticRegression.pkl")
