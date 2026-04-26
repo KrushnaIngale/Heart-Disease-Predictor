@@ -9,7 +9,7 @@ model = joblib.load("LogisticRegression.pkl")
 scaler = joblib.load("scaler.pkl")
 expected_columns = joblib.load("columns.pkl")
 
-st.title("❤️ Heart Disease Prediction")
+st.title("❤️ Heart Disease Prediction by Krushna")
 st.write("Enter patient details below:")
 
 age = st.slider("Age", 18, 100, 40)
